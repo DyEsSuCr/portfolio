@@ -1,0 +1,20 @@
+---
+const { project } = Astro.props
+---
+
+<div class='mt-[2.5vh] mb-[3vh]'>
+  {
+    project.skills.map((skill) => {
+      return (
+        <a href={skill.url} target='_blank'>
+          <span class='inline-flex items-center max-w-full font-medium rounded-full min-h-[2rem] min-w-[2rem] m-1 p-2 bg-[#C4F1F9] text-[#086F83] border-dark hover:bg-[#bbdee6] duration-300'>
+            <span class='rounded-full inline-flex justify-center items-center text-center font-medium relative w-6 h-6 mx-1'>
+              <img class='w-full h-full object-cover rounded-2xl' src={skill.logo} alt={skill.name} />
+            </span>
+            <span class='text-[.9rem] overflow-hidden mr-1'>{skill.name}</span>
+          </span>
+        </a>
+      )
+    })
+  }
+</div>
