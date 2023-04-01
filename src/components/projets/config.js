@@ -12,11 +12,7 @@ import Turns from '../../images/projects/fast.png'
 function dame (...skillName) {
   const skills = []
 
-  skillName.map((name) => {
-    apiSkills.map((skill) => {
-      skill.name == name && skills.push(skill)
-    })
-  })
+  skillName.map((name) => apiSkills.map((skill) => skill.name === name && skills.push(skill)))
 
   return skills
 }
@@ -29,7 +25,7 @@ export const projects = [
     description: 'Portfolio personal',
     github: 'https://github.com/DyEsSuCr/front-portfolio',
     demo: 'https://dyessucr.github.io/front-portfolio/',
-    skills: dame('React', 'Tailwind', 'Git', 'NPM')
+    skills: dame('Astro', 'Tailwind', 'Git', 'pnpm')
   },
   {
     id: crypto.randomUUID(),

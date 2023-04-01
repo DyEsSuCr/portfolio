@@ -18,6 +18,8 @@ import Node from '../../images/skills/node-logo.png'
 import Express from '../../images/skills/express-logo.png'
 import AWS from '../../images/skills/aws-icon.png'
 import Azure from '../../images/skills/azure-icon.png'
+import Astro from '../../images/skills/astro-logo.png'
+import PNPM from '../../images/skills/pnpm-logo.png'
 
 export const skills = [
   {
@@ -94,6 +96,12 @@ export const skills = [
   },
   {
     id: crypto.randomUUID(),
+    name: 'Astro',
+    url: 'https://astro.build/',
+    logo: Astro
+  },
+  {
+    id: crypto.randomUUID(),
     name: 'Sass',
     url: 'https://sass-lang.com/',
     logo: Sass
@@ -115,6 +123,12 @@ export const skills = [
     name: 'HTML',
     url: 'https://developer.mozilla.org/es/docs/Web/HTML',
     logo: HTML
+  },
+  {
+    id: crypto.randomUUID(),
+    name: 'pnpm',
+    url: 'https://pnpm.io/',
+    logo: PNPM
   },
   {
     id: crypto.randomUUID(),
