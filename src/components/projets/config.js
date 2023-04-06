@@ -8,6 +8,7 @@ import portfolio from '../../images/projects/portfolio.png'
 import apiPortfolio from '../../images/projects/api.png'
 import timers from '../../images/projects/tempo.png'
 import fastassistance from '../../images/projects/fast.png'
+import dyggram from '../../images/projects/dyggram.png'
 
 function dame (...skillName) {
   const skills = []
@@ -26,6 +27,15 @@ export const projects = [
     github: 'https://github.com/DyEsSuCr/front-portfolio',
     demo: 'https://dyessucr.github.io/front-portfolio/',
     skills: dame('Astro', 'Tailwind', 'Git', 'pnpm')
+  },
+  {
+    id: crypto.randomUUID(),
+    image: dyggram,
+    title: 'DyGgram',
+    description: 'Clon Instragram, con el sistema de authennticacion 🔐JWT',
+    github: 'https://github.com/DyEsSuCr/dyggram',
+    demo: null,
+    skills: dame('React', 'Tailwind', 'Git', 'MySQL', 'Express', 'NodeJS', 'pnpm')
   },
   {
     id: crypto.randomUUID(),

@@ -36,7 +36,7 @@ export const skills = [
   },
   {
     id: crypto.randomUUID(),
-    name: 'Node JS',
+    name: 'NodeJS',
     url: 'https://nodejs.org/en/',
     logo: node
   },
