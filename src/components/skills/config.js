@@ -20,6 +20,7 @@ import aws from '../../images/skills/aws-icon.png'
 import azure from '../../images/skills/azure-icon.png'
 import astro from '../../images/skills/astro-logo.png'
 import pnpm from '../../images/skills/pnpm-logo.png'
+import jwt from '../../images/skills/jwt.png'
 
 export const skills = [
   {
@@ -45,6 +46,12 @@ export const skills = [
     name: 'Express',
     url: 'https://expressjs.com/',
     logo: express
+  },
+  {
+    id: crypto.randomUUID(),
+    name: 'JWT',
+    url: 'https://jwt.io/',
+    logo: jwt
   },
   {
     id: crypto.randomUUID(),
