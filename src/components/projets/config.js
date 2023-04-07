@@ -1,3 +1,4 @@
+// JS
 import crypto from 'crypto'
 
 // Skills
@@ -21,21 +22,22 @@ function dame (...skillName) {
 export const projects = [
   {
     id: crypto.randomUUID(),
-    image: portfolio,
-    title: 'Portfolio',
-    description: 'Portfolio personal',
-    github: 'https://github.com/DyEsSuCr/front-portfolio',
-    demo: 'https://dyessucr.github.io/front-portfolio/',
-    skills: dame('Astro', 'Tailwind', 'Git', 'pnpm')
-  },
-  {
-    id: crypto.randomUUID(),
     image: dyggram,
     title: 'DyGgram',
     description: 'Clon Instragram, con el sistema de authennticacion 🔐JWT',
     github: 'https://github.com/DyEsSuCr/dyggram',
     demo: null,
-    skills: dame('React', 'Tailwind', 'Git', 'MySQL', 'Express', 'NodeJS', 'pnpm')
+    skills: dame('React', 'Tailwind', 'Git', 'MySQL', 'Express', 'NodeJS', 'pnpm', 'JWT')
+  },
+  {
+    id: crypto.randomUUID(),
+    image: fastassistance,
+    title: 'FastAssitance',
+    description:
+      'Un sistema de información que permita agendar un turno, en este caso para un salón de belleza, que permita al cliente escoger el empleado que quiere que lo atienda y una fecha y hora específica para que sea atendido,',
+    github: 'https://github.com/DyEsSuCr/FastAssitance',
+    demo: null,
+    skills: dame('Django', 'Git', 'Tailwind', 'HTML', 'CSS', 'MySQL')
   },
   {
     id: crypto.randomUUID(),
@@ -48,13 +50,12 @@ export const projects = [
   },
   {
     id: crypto.randomUUID(),
-    image: fastassistance,
-    title: 'FastAssitance',
-    description:
-      'Un sistema de información que permita agendar un turno, en este caso para un salón de belleza, que permita al cliente escoger el empleado que quiere que lo atienda y una fecha y hora específica para que sea atendido,',
-    github: 'https://github.com/DyEsSuCr/FastAssitance',
-    demo: null,
-    skills: dame('Django', 'Git', 'Tailwind', 'HTML', 'CSS', 'MySQL')
+    image: portfolio,
+    title: 'Portfolio',
+    description: 'Portfolio personal',
+    github: 'https://github.com/DyEsSuCr/front-portfolio',
+    demo: 'https://dyessucr.github.io/front-portfolio/',
+    skills: dame('Astro', 'Tailwind', 'Git', 'pnpm')
   },
   {
     id: crypto.randomUUID(),
